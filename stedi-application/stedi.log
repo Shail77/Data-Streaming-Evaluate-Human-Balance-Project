@@ -1,0 +1,245 @@
+****** Config File Path: /home/workspace/stedi-application/application.conf
+****** Config File Path: /home/workspace/stedi-application/application.conf
+Jul 19, 2021 8:48:15 AM com.getsimplex.steptimer.service.KafkaRiskTopicConsumerActor onReceive
+INFO: Connecting to Kafka Topic: customer-risk
+****** Config File Path: /home/workspace/stedi-application/application.conf
+Unable to create test user due to exception: Username already exists
+[websocket-akka.actor.default-dispatcher-4] INFO org.apache.kafka.clients.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-STEDI-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = STEDI
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+Unable to create customer due to exception: Customer already exists
+[Thread-1] INFO org.eclipse.jetty.util.log - Logging initialized @5948ms
+[Thread-1] INFO spark.webserver.JettySparkServer - == Spark has ignited ...
+[Thread-1] INFO spark.webserver.JettySparkServer - >> Listening on 0.0.0.0:3000
+[Thread-1] INFO org.eclipse.jetty.server.Server - jetty-9.3.z-SNAPSHOT
+[websocket-akka.actor.default-dispatcher-4] INFO org.apache.kafka.common.utils.AppInfoParser - Kafka version: 2.6.0
+[websocket-akka.actor.default-dispatcher-4] INFO org.apache.kafka.common.utils.AppInfoParser - Kafka commitId: 62abe01bee039651
+[websocket-akka.actor.default-dispatcher-4] INFO org.apache.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1626684497465
+[websocket-akka.actor.default-dispatcher-4] INFO org.apache.kafka.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Subscribed to topic(s): stedi-score
+[Thread-1] INFO org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@6c0c4446{/,null,AVAILABLE}
+[Thread-1] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@668b2ca6{HTTP/1.1,[http/1.1]}{0.0.0.0:3000}
+[Thread-1] INFO org.eclipse.jetty.server.Server - Started @7232ms
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Error while fetching metadata with correlation id 3 : {stedi-score=LEADER_NOT_AVAILABLE}
+[websocket-akka.actor.default-dispatcher-4] INFO org.apache.kafka.clients.Metadata - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Cluster ID: 2eCgOxXfTnyYKQMJlbNVXw
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Error while fetching metadata with correlation id 7 : {stedi-score=LEADER_NOT_AVAILABLE}
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Error while fetching metadata with correlation id 8 : {stedi-score=LEADER_NOT_AVAILABLE}
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Error while fetching metadata with correlation id 10 : {stedi-score=LEADER_NOT_AVAILABLE}
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Error while fetching metadata with correlation id 12 : {stedi-score=LEADER_NOT_AVAILABLE}
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Error while fetching metadata with correlation id 14 : {stedi-score=LEADER_NOT_AVAILABLE}
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Error while fetching metadata with correlation id 16 : {stedi-score=LEADER_NOT_AVAILABLE}
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Error while fetching metadata with correlation id 18 : {stedi-score=LEADER_NOT_AVAILABLE}
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Error while fetching metadata with correlation id 20 : {stedi-score=LEADER_NOT_AVAILABLE}
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Error while fetching metadata with correlation id 22 : {stedi-score=LEADER_NOT_AVAILABLE}
+[websocket-akka.actor.default-dispatcher-4] INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Discovered group coordinator a9bac0e54f0f:9092 (id: 2147483647 rack: null)
+[websocket-akka.actor.default-dispatcher-4] INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] (Re-)joining group
+[websocket-akka.actor.default-dispatcher-4] INFO org.apache.kafka.clients.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Finished assignment for group at generation 1: {consumer-STEDI-1-ac43f45f-fd18-4bb8-be9e-75ead5e7faa8=Assignment(partitions=[stedi-score-0])}
+[websocket-akka.actor.default-dispatcher-4] INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Successfully joined group with generation 1
+[websocket-akka.actor.default-dispatcher-4] INFO org.apache.kafka.clients.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Notifying assignor about the new Assignment(partitions=[stedi-score-0])
+[websocket-akka.actor.default-dispatcher-4] INFO org.apache.kafka.clients.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Adding newly assigned partitions: stedi-score-0
+[websocket-akka.actor.default-dispatcher-4] INFO org.apache.kafka.clients.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Found no committed offset for partition stedi-score-0
+[websocket-akka.actor.default-dispatcher-4] INFO org.apache.kafka.clients.consumer.internals.SubscriptionState - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Resetting offset for partition stedi-score-0 to offset 0.
+Jul 19, 2021 8:52:02 AM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: rock@abc.com
+[qtp815268233-21] ERROR spark.webserver.MatcherFilter - 
+java.lang.Exception: Customer rock@abc.com has: 1 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+	at com.getsimplex.steptimer.service.StepHistory.riskScore(StepHistory.java:71)
+	at com.getsimplex.steptimer.service.WebAppRunner.riskScore(WebAppRunner.java:150)
+	at com.getsimplex.steptimer.service.WebAppRunner.lambda$main$9(WebAppRunner.java:99)
+	at spark.RouteImpl$1.handle(RouteImpl.java:58)
+	at spark.webserver.MatcherFilter.doFilter(MatcherFilter.java:162)
+	at spark.webserver.JettyHandler.doHandle(JettyHandler.java:61)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:119)
+	at org.eclipse.jetty.server.Server.handle(Server.java:517)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:302)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:242)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:245)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:75)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:213)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:147)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Thread.java:748)
+Jul 19, 2021 8:52:16 AM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: rock@abc.com
+[qtp815268233-23] ERROR spark.webserver.MatcherFilter - 
+java.lang.Exception: Customer rock@abc.com has: 2 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+	at com.getsimplex.steptimer.service.StepHistory.riskScore(StepHistory.java:71)
+	at com.getsimplex.steptimer.service.WebAppRunner.riskScore(WebAppRunner.java:150)
+	at com.getsimplex.steptimer.service.WebAppRunner.lambda$main$9(WebAppRunner.java:99)
+	at spark.RouteImpl$1.handle(RouteImpl.java:58)
+	at spark.webserver.MatcherFilter.doFilter(MatcherFilter.java:162)
+	at spark.webserver.JettyHandler.doHandle(JettyHandler.java:61)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:119)
+	at org.eclipse.jetty.server.Server.handle(Server.java:517)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:302)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:242)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:245)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:75)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:213)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:147)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Thread.java:748)
+Jul 19, 2021 8:52:26 AM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: rock@abc.com
+[qtp815268233-20] ERROR spark.webserver.MatcherFilter - 
+java.lang.Exception: Customer rock@abc.com has: 3 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+	at com.getsimplex.steptimer.service.StepHistory.riskScore(StepHistory.java:71)
+	at com.getsimplex.steptimer.service.WebAppRunner.riskScore(WebAppRunner.java:150)
+	at com.getsimplex.steptimer.service.WebAppRunner.lambda$main$9(WebAppRunner.java:99)
+	at spark.RouteImpl$1.handle(RouteImpl.java:58)
+	at spark.webserver.MatcherFilter.doFilter(MatcherFilter.java:162)
+	at spark.webserver.JettyHandler.doHandle(JettyHandler.java:61)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:119)
+	at org.eclipse.jetty.server.Server.handle(Server.java:517)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:302)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:242)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:245)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:75)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:213)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:147)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Thread.java:748)
+Jul 19, 2021 8:52:36 AM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: rock@abc.com
+[qtp815268233-25] ERROR spark.webserver.MatcherFilter - 
+java.lang.Exception: Customer rock@abc.com has: 3 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+	at com.getsimplex.steptimer.service.StepHistory.riskScore(StepHistory.java:71)
+	at com.getsimplex.steptimer.service.WebAppRunner.riskScore(WebAppRunner.java:150)
+	at com.getsimplex.steptimer.service.WebAppRunner.lambda$main$9(WebAppRunner.java:99)
+	at spark.RouteImpl$1.handle(RouteImpl.java:58)
+	at spark.webserver.MatcherFilter.doFilter(MatcherFilter.java:162)
+	at spark.webserver.JettyHandler.doHandle(JettyHandler.java:61)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:119)
+	at org.eclipse.jetty.server.Server.handle(Server.java:517)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:302)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:242)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:245)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:75)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:213)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:147)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Thread.java:748)

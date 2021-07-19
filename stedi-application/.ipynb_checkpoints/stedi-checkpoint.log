@@ -1,0 +1,331 @@
+****** Config File Path: /home/workspace/stedi-application/application.conf
+****** Config File Path: /home/workspace/stedi-application/application.conf
+Jul 01, 2021 4:47:55 PM com.getsimplex.steptimer.service.KafkaRiskTopicConsumerActor onReceive
+INFO: Connecting to Kafka Topic: customer-risk
+****** Config File Path: /home/workspace/stedi-application/application.conf
+[websocket-akka.actor.default-dispatcher-4] INFO org.apache.kafka.clients.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-STEDI-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = STEDI
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+[websocket-akka.actor.default-dispatcher-4] INFO org.apache.kafka.common.utils.AppInfoParser - Kafka version: 2.6.0
+[websocket-akka.actor.default-dispatcher-4] INFO org.apache.kafka.common.utils.AppInfoParser - Kafka commitId: 62abe01bee039651
+[websocket-akka.actor.default-dispatcher-4] INFO org.apache.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1625158077302
+[websocket-akka.actor.default-dispatcher-4] INFO org.apache.kafka.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Subscribed to topic(s): topic-you-created
+[Thread-1] INFO org.eclipse.jetty.util.log - Logging initialized @6742ms
+[Thread-1] INFO spark.webserver.JettySparkServer - == Spark has ignited ...
+[Thread-1] INFO spark.webserver.JettySparkServer - >> Listening on 0.0.0.0:3000
+[Thread-1] INFO org.eclipse.jetty.server.Server - jetty-9.3.z-SNAPSHOT
+[Thread-1] INFO org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@54e0a121{/,null,AVAILABLE}
+[Thread-1] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@84c8707{HTTP/1.1,[http/1.1]}{0.0.0.0:3000}
+[Thread-1] INFO org.eclipse.jetty.server.Server - Started @8117ms
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Error while fetching metadata with correlation id 3 : {topic-you-created=LEADER_NOT_AVAILABLE}
+[websocket-akka.actor.default-dispatcher-4] INFO org.apache.kafka.clients.Metadata - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Cluster ID: Dcp6RRjZTseRW2DvlJXARw
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Error while fetching metadata with correlation id 7 : {topic-you-created=LEADER_NOT_AVAILABLE}
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Error while fetching metadata with correlation id 8 : {topic-you-created=LEADER_NOT_AVAILABLE}
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Error while fetching metadata with correlation id 10 : {topic-you-created=LEADER_NOT_AVAILABLE}
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Error while fetching metadata with correlation id 12 : {topic-you-created=LEADER_NOT_AVAILABLE}
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Error while fetching metadata with correlation id 14 : {topic-you-created=LEADER_NOT_AVAILABLE}
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Error while fetching metadata with correlation id 16 : {topic-you-created=LEADER_NOT_AVAILABLE}
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Error while fetching metadata with correlation id 18 : {topic-you-created=LEADER_NOT_AVAILABLE}
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Error while fetching metadata with correlation id 20 : {topic-you-created=LEADER_NOT_AVAILABLE}
+[websocket-akka.actor.default-dispatcher-4] WARN org.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Error while fetching metadata with correlation id 22 : {topic-you-created=LEADER_NOT_AVAILABLE}
+[websocket-akka.actor.default-dispatcher-4] INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Discovered group coordinator 3ba9cb2eeeee:9092 (id: 2147483647 rack: null)
+[websocket-akka.actor.default-dispatcher-4] INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] (Re-)joining group
+[websocket-akka.actor.default-dispatcher-4] INFO org.apache.kafka.clients.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Finished assignment for group at generation 1: {consumer-STEDI-1-fa18b852-a963-471b-ae18-23dfa73e1371=Assignment(partitions=[topic-you-created-0])}
+[websocket-akka.actor.default-dispatcher-4] INFO org.apache.kafka.clients.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Successfully joined group with generation 1
+[websocket-akka.actor.default-dispatcher-4] INFO org.apache.kafka.clients.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Notifying assignor about the new Assignment(partitions=[topic-you-created-0])
+[websocket-akka.actor.default-dispatcher-4] INFO org.apache.kafka.clients.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Adding newly assigned partitions: topic-you-created-0
+[websocket-akka.actor.default-dispatcher-4] INFO org.apache.kafka.clients.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Found no committed offset for partition topic-you-created-0
+[websocket-akka.actor.default-dispatcher-4] INFO org.apache.kafka.clients.consumer.internals.SubscriptionState - [Consumer clientId=consumer-STEDI-1, groupId=STEDI] Resetting offset for partition topic-you-created-0 to offset 0.
+Jul 01, 2021 4:51:29 PM com.getsimplex.steptimer.service.SimulationActor onReceive
+INFO: SimulationActor received StartSimulationMessage to start simulation for: 30 test customers
+Jul 01, 2021 4:51:29 PM com.getsimplex.steptimer.service.SimulationActor onReceive
+INFO: Creating test customers...
+Jul 01, 2021 4:51:30 PM com.getsimplex.steptimer.service.SimulationActor onReceive
+INFO: Starting infinite loop for test data
+Jul 01, 2021 4:51:32 PM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: Spencer.Mitra@test.com
+Customer Spencer.Mitra@test.com has: 1 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+Jul 01, 2021 4:51:34 PM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: Neeraj.Clark@test.com
+Customer Neeraj.Clark@test.com has: 1 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+Jul 01, 2021 4:51:36 PM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: Craig.Anderson@test.com
+Customer Craig.Anderson@test.com has: 1 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+Jul 01, 2021 4:51:38 PM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: Spencer.Gonzalez@test.com
+Customer Spencer.Gonzalez@test.com has: 1 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+Jul 01, 2021 4:51:40 PM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: Jacob.Hansen@test.com
+Customer Jacob.Hansen@test.com has: 1 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+Jul 01, 2021 4:51:42 PM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: Lyn.Gonzalez@test.com
+Customer Lyn.Gonzalez@test.com has: 1 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+Jul 01, 2021 4:51:44 PM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: Lyn.Jones@test.com
+Customer Lyn.Jones@test.com has: 1 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+Jul 01, 2021 4:51:46 PM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: John.Olson@test.com
+Customer John.Olson@test.com has: 1 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+Jul 01, 2021 4:51:48 PM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: Christina.Ahmed@test.com
+Customer Christina.Ahmed@test.com has: 1 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+Jul 01, 2021 4:51:50 PM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: Sean.Sanchez@test.com
+Customer Sean.Sanchez@test.com has: 1 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+Jul 01, 2021 4:51:52 PM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: Eric.Anderson@test.com
+Customer Eric.Anderson@test.com has: 1 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+Jul 01, 2021 4:51:54 PM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: Ashley.Habschied@test.com
+Customer Ashley.Habschied@test.com has: 1 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+Jul 01, 2021 4:51:56 PM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: Chris.Gonzalez@test.com
+Customer Chris.Gonzalez@test.com has: 1 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+Jul 01, 2021 4:51:58 PM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: David.Staples@test.com
+Customer David.Staples@test.com has: 1 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+Jul 01, 2021 4:52:00 PM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: Danny.Spencer@test.com
+Customer Danny.Spencer@test.com has: 1 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+Jul 01, 2021 4:52:02 PM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: Danny.Abram@test.com
+Customer Danny.Abram@test.com has: 1 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+Jul 01, 2021 4:52:04 PM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: Chris.Smith@test.com
+Customer Chris.Smith@test.com has: 1 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+Jul 01, 2021 4:52:06 PM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: Sarah.Khatib@test.com
+Customer Sarah.Khatib@test.com has: 1 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+Jul 01, 2021 4:52:08 PM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: Lyn.Jefferson@test.com
+Customer Lyn.Jefferson@test.com has: 1 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+Jul 01, 2021 4:52:10 PM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: Jerry.Gonzalez@test.com
+Customer Jerry.Gonzalez@test.com has: 1 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+Jul 01, 2021 4:52:12 PM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: Ben.Abram@test.com
+Customer Ben.Abram@test.com has: 1 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+Jul 01, 2021 4:52:14 PM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: Christina.Olson@test.com
+Customer Christina.Olson@test.com has: 1 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+Jul 01, 2021 4:52:16 PM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: Trevor.Davis@test.com
+Customer Trevor.Davis@test.com has: 1 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+Jul 01, 2021 4:52:18 PM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: John.Abram@test.com
+Customer John.Abram@test.com has: 1 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+Jul 01, 2021 4:52:20 PM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: Dan.Jones@test.com
+Customer Dan.Jones@test.com has: 1 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+Jul 01, 2021 4:52:22 PM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: Jerry.Huey@test.com
+Customer Jerry.Huey@test.com has: 1 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+Jul 01, 2021 4:52:24 PM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: Neeraj.Anandh@test.com
+Customer Neeraj.Anandh@test.com has: 1 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+Jul 01, 2021 4:52:26 PM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: Spencer.Jones@test.com
+Customer Spencer.Jones@test.com has: 1 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+Jul 01, 2021 4:52:28 PM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: Dan.Clayton@test.com
+Customer Dan.Clayton@test.com has: 1 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+Jul 01, 2021 4:52:28 PM com.getsimplex.steptimer.service.SimulationActor onReceive
+INFO: Received request to stop simulation, stopping until further notice...
+Jul 01, 2021 4:52:28 PM com.getsimplex.steptimer.service.SimulationActor onReceive
+INFO: SimulationActor received StartSimulationMessage to start simulation for: 30 test customers
+Jul 01, 2021 4:52:28 PM com.getsimplex.steptimer.service.SimulationActor onReceive
+INFO: Creating test customers...
+Customer already exists
+Jul 01, 2021 4:52:28 PM com.getsimplex.steptimer.service.SimulationActor onReceive
+INFO: Starting infinite loop for test data
+Jul 01, 2021 4:52:30 PM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: Chris.Jefferson@test.com
+Customer Chris.Jefferson@test.com has: 1 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+Jul 01, 2021 4:52:32 PM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: Larry.Gonzalez@test.com
+Customer Larry.Gonzalez@test.com has: 1 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+Jul 01, 2021 4:52:34 PM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: David.Anderson@test.com
+Customer David.Anderson@test.com has: 1 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+Jul 01, 2021 4:52:36 PM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: David.Hansen@test.com
+Customer David.Hansen@test.com has: 1 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+Jul 01, 2021 4:52:38 PM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: Ben.Hansen@test.com
+Customer Ben.Hansen@test.com has: 1 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+Jul 01, 2021 4:52:40 PM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: Edward.Aristotle@test.com
+Customer Edward.Aristotle@test.com has: 1 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+Jul 01, 2021 4:52:42 PM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: Bobby.Jackson@test.com
+Customer Bobby.Jackson@test.com has: 1 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+Jul 01, 2021 4:52:44 PM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: David.Lincoln@test.com
+Customer David.Lincoln@test.com has: 1 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+Jul 01, 2021 4:52:46 PM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: Jacob.Olson@test.com
+Customer Jacob.Olson@test.com has: 1 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+Jul 01, 2021 4:52:48 PM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: Jason.Wu@test.com
+Customer Jason.Wu@test.com has: 1 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+Jul 01, 2021 4:52:50 PM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: Jason.Clayton@test.com
+Customer Jason.Clayton@test.com has: 1 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+Jul 01, 2021 4:52:52 PM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: Chris.Howard@test.com
+Customer Chris.Howard@test.com has: 1 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+Jul 01, 2021 4:52:54 PM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: Sean.Abram@test.com
+Customer Sean.Abram@test.com has: 1 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+Jul 01, 2021 4:52:56 PM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: Neeraj.Olson@test.com
+Customer Neeraj.Olson@test.com has: 1 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+Jul 01, 2021 4:52:58 PM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: Travis.Howard@test.com
+Customer Travis.Howard@test.com has: 1 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+Jul 01, 2021 4:53:00 PM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: Trevor.Huey@test.com
+Customer Trevor.Huey@test.com has: 1 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+Jul 01, 2021 4:53:02 PM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: Jason.Hansen@test.com
+Customer Jason.Hansen@test.com has: 1 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+Jul 01, 2021 4:53:04 PM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: John.Habschied@test.com
+Customer John.Habschied@test.com has: 1 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+Jul 01, 2021 4:53:06 PM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: Bobby.Howard@test.com
+Customer Bobby.Howard@test.com has: 1 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+Jul 01, 2021 4:53:08 PM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: Senthil.Staples@test.com
+Customer Senthil.Staples@test.com has: 1 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+Jul 01, 2021 4:53:10 PM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: Craig.Staples@test.com
+Customer Craig.Staples@test.com has: 1 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+Jul 01, 2021 4:53:12 PM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: David.Wu@test.com
+Customer David.Wu@test.com has: 1 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+Jul 01, 2021 4:53:14 PM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: Ben.Anandh@test.com
+Customer Ben.Anandh@test.com has: 1 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+Jul 01, 2021 4:53:16 PM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: Angie.Abram@test.com
+Customer Angie.Abram@test.com has: 1 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+Jul 01, 2021 4:53:18 PM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: Jerry.Staples@test.com
+Customer Jerry.Staples@test.com has: 1 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+Jul 01, 2021 4:53:20 PM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: Jacob.Huey@test.com
+Customer Jacob.Huey@test.com has: 1 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+Jul 01, 2021 4:53:22 PM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: John.Harris@test.com
+Customer John.Harris@test.com has: 1 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+Jul 01, 2021 4:53:24 PM com.getsimplex.steptimer.service.StepHistory riskScore
+INFO: Received score request for: David.Clayton@test.com
+Customer David.Clayton@test.com has: 1 rapid step tests on file which is less than the required number(4) to calculate fall risk.
+Jul 01, 2021 4:53:24 PM com.getsimplex.steptimer.service.SimulationActor onReceive
+INFO: Received request to stop simulation, stopping until further notice...
