@@ -187,6 +187,31 @@ stediScoreStreamingDF = customerRiskStreamingDF.join(emailAndBirthYearStreamingD
 #
 # In this JSON Format {"customer":"Santosh.Fibonnaci@test.com","score":"28.5","email":"Santosh.Fibonnaci@test.com","birthYear":"1963"}
 
+print("emailAndBirthDayStreamingDF output:")
+print(emailAndBirthDayStreamingDF.show())
+
+print("stediScoreStreamingDF output:")
+print(stediScoreStreamingDF.show())
+
+print("customerRiskStreamingDF output:")
+print(customerRiskStreamingDF.show())
+
+print("kafkaEventsDF output")
+print(kafkaEventsDF.show())
+
+print("zSetDecodedEntriesStreamingDF output:")
+print(zSetDecodedEntriesStreamingDF.show())
+
+print("emailAndBirthDayStreamingDF output:")
+print(emailAndBirthDayStreamingDF.show())
+
+print("zSetEntriesEncodedStreamingDF output:")
+print(zSetEntriesEncodedStreamingDF.show())
+
+print("kafkaRedisDF output:")
+print(kafkaRedisDF.show())
+
+
 stediScoreStreamingDF.selectExpr(
   "cast(customer as string) as key",
   "to_json(struct(*)) as value")\
